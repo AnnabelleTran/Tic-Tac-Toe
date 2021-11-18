@@ -1,0 +1,90 @@
+html{
+    background-color: lightblue;
+}
+.container{
+    display:grid;
+    grid-template-columns: 33.333% 33.333% 33.333%;
+    margin: auto;
+    width:30vw;
+    height:30vh;
+    justify-content: center;
+    
+}
+#message{
+    text-align: center;
+    font-size: 2.5vw;
+}
+.restart{
+    text-align: center;
+    margin-top: 2vw;
+    font-size: 2vw;
+}
+h1{
+    text-align: center;
+    font-size: 3vw;
+}
+h3{
+    text-align: center;
+}
+.box1{
+    text-align:center;
+    font-size:2em;
+    width: 10vw;
+    height:10vw;
+    background-color: lightblue;
+}
+
+#s1{
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+    border-left: none;
+    border-top: none;
+}
+#s2{
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+    border-left: 10px solid black;
+    border-top: none;
+}
+#s3{
+    border-bottom: 10px solid black;
+    border-left: 10px solid black;
+    border-top: none; 
+    border-right: none;
+}
+#s4{
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+    border-top: 10px solid black;
+    border-left: none;
+}
+#s5{
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+    border-top: 10px solid black;
+    border-left: 10px solid black;
+}
+#s6{
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+    border-top: 10px solid black;
+    border-right: none;
+}
+#s7{
+    border-right: 10px solid black;
+    border-top: 10px solid black;
+    border-left: none;
+    border-bottom: none;
+}
+#s8{
+    border-right: 10px solid black;
+    border-left: 10px solid black;
+    border-top: 10px solid black;
+    border-bottom: none;
+}
+#s9{
+    border-left: 10px solid black;
+    border-top: 10px solid black;
+    border-bottom: none;
+    border-right: none;
+}
